@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--inferno: 192, 57, 43;
+	--purgatorio: 97, 106, 107;
+	--paradiso:36, 113, 163 ;
+}
+
+a{
+	color: inherit;
+	text-decoration: inherit;
+}
+section{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+
+.header, .footer{
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header{
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo{
+	margin-left: 40px;
+}
+
+.header-list{
+	display: flex;
+	list-style: none;
+}
+
+.header-list-item{
+	margin-left: 48px;
+	margin-right: 48px;
+	transition: 0.2s;
+}
+
+.inferno{
+	background-color: rgba(var(--inferno));
+}
+
+.purgatorio{
+	background-color: rgba(var(--purgatorio));
+}
+
+.paradiso{
+	background-color: rgba(var(--paradiso));
+}
+
+
